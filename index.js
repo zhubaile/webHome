@@ -5,6 +5,15 @@ app.use(express.static('public'));
 app.get('/', function (req, res) {
    res.sendFile(__dirname + "/" + "index.html" );
 })
+app.get('/dyprofile', function (req, res) {
+    res.sendFile(__dirname + "/pages" + "dyprofile.html" );
+})
+app.get('/product', function (req, res) {
+    res.sendFile(__dirname + "/" + "product.html" );
+})
+app.get('/services', function (req, res) {
+    res.sendFile(__dirname + "/" + "services.html" );
+})
  
 var server = app.listen(8081, function () {
  
