@@ -6,13 +6,13 @@ app.get('/', function (req, res) {
    res.sendFile(__dirname + "/" + "index.html" );
 })
 app.get('/dyprofile', function (req, res) {
-    res.sendFile(__dirname + "pages/" + "dyprofile.html" );
+    res.sendFile(__dirname + "/pages/" + "dyprofile.html" );
 })
 app.get('/product', function (req, res) {
     res.sendFile(__dirname + "/pages/" + "product.html" );
 })
 app.get('/services', function (req, res) {
-    res.sendFile(__dirname + "pages/" + "services.html" );
+    res.sendFile(__dirname + "/pages/" + "services.html" );
 })
  
 var server = app.listen(8081, function () {
