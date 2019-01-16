@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>主营业务</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <script type="application/x-javascript"> addEventListener("load", function() {
+        setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+  <!--  <link href="../static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="../static/css/style.css" type="text/css" media="all" />
+    <link type="text/css" rel="stylesheet" href="../static/css/cm-overlay.css" />
+    <link href="../static/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/dy.css">
+    <script src="../static/js/jquery-1.11.1.min.js"></script>
+    <script src="../static/js/bootstrap.js"></script>
+    <script src="../static/js/SmoothScroll.min.js"></script>-->
+    <link href="/static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="/static/css/style.css" type="text/css" media="all" />
+    <link type="text/css" rel="stylesheet" href="/static/css/cm-overlay.css" />
+    <link href="/static/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/dy.css">
+    <script src="/static/js/jquery-1.11.1.min.js"></script>
+    <script src="/static/js/bootstrap.js"></script>
+    <script src="/static/js/SmoothScroll.min.js"></script>
+</head>
+<body>
+<!--header-->
+<div class="banner">
+    <!-- header -->
+    <div class="header">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <div class="w3layouts-logo">
+                        <h1><a href="index.html">北京鼎赢</a></h1>
+                    </div>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                    <nav>
+                        <ul class="nav navbar-nav">
+                            <li><a href="../index.html">首页</a></li>
+                            <li><a href="dyprofile.html" class="scroll">公司简介</a></li>
+                            <li class="active"><a href="product.html" class="scroll">主营业务</a></li>
+                            <li><a href="services.html" class="scroll">合作案例</a></li>
+                            <li><a href="#team" class="scroll">团队</a></li>
+                            <li><a href="#mail" class="scroll">联系我们</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- //header -->
+    <div class="banner-top">
+        <div class="container">
+            <div class="slider">
+                <div class="callbacks_container">
+                    <ul class="rslides callbacks callbacks1" id="slider4">
+                        <li>
+                            <div class="banner_text">
+                                <h3>Lorem ipsum</h3>
+                                <p>In volutpat metus quis velit malesuada</p>
+                                <div class="w3-button">
+                                    <a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="banner_text">
+                                <h3>Nam semper</h3>
+                                <p>Nam imperdiet tellus nec enim tempus</p>
+                                <div class="w3-button">
+                                    <a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <script src="../static/js/responsiveslides.min.js"></script>
+                <!--<script src="/static/js/responsiveslides.min.js"></script>-->
+                <script>
+                    // You can also use "$(window).load(function() {"
+                    $(function () {
+                        // Slideshow 4
+                        $("#slider4").responsiveSlides({
+                            auto: true,
+                            pager:true,
+                            nav:true,
+                            speed: 500,
+                            namespace: "callbacks",
+                            before: function () {
+                                $('.events').append("<li>before event fired.</li>");
+                            },
+                            after: function () {
+                                $('.events').append("<li>after event fired.</li>");
+                            }
+                        });
+
+                    });
+                </script>
+                <!--banner Slider starts Here-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gallery" id="gallery">
+    <div class="container">
+        <div class="wthree-heading">
+            <h3>Our Gallery</h3>
+            <h4>G</h4>
+        </div>
+        <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+            <ul id="myTab" class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#home-main" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">中小学科技创客教育</a></li>
+                <li role="presentation"><a href="#learning" role="tab" id="learning-tab" data-toggle="tab" aria-controls="learning">AI创新工坊</a></li>
+                <li role="presentation"><a href="#playing" role="tab" id="playing-tab" data-toggle="tab" aria-controls="playing">太空教育成长计划</a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+                <!--创客教育-->
+                <div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
+                    <p>
+                        中小学科技创客教育以科技创客成长空间为空间载体，通过国际领先的PBL（Problem-Based Learning）教学方法和STEAM教学理念结合，
+                        打造以航空航天和人工智能为特色、以机器人为拓展、以自然语言编程为途径的多学科融合科技实践课程，培养 6至16岁青少年在学习、
+                        设计、制造、分析、优化的问题解决过程中提高科学素养、锻炼实践能力、培养想象力和创造力、建立团队合作意识，成为具有创新能力、
+                        创造能力、满足国建现代化建设要求、符合社会发展进步需求的未来创客。
+                    </p>
+                    <div class="one">
+                        <h3>科技创客成长空间</h3>
+                        <p>科技创客成长空间是科技创客教育的空间载体，集学习功能、实践功能、交流功能于一体，承载着学生学习、设计、制作、展示、分享、
+                            交流的重任，是科技创客教育的硬件基础。</p>
+                        <div class="content_left">
+                            <p>（1）飞天创客空间：以高精尖科技产品学习、体验为核心，以航空航天科技及扩展领域为特色，以数字化模拟、模型化实践为方式，定向化培养青少年创客。</p>
+                            <img src="/static/images/dyimg/product/one1.png" alt="">
+                        </div>
+                        <div class="content_right">
+                            <p>（2）智能创客空间：以单片机、机器人为核心，以学习图形化编程、编程语言基础为过程，以丰富多彩的项目挑战为方式，培养青少年对电子电路、传感器
+                                、电子执行器的认知和使用，锻炼逻辑思维和编程能力。</p>
+                            <img src="/static/images/dyimg/product/one2.png" alt="">
+                        </div>
+                        <div class="content_left">
+                            <p>（3）骇客创客空间：以计算机编程为核心，以软件应用及自动化设备为展现，以项目挑战为方式，着重培养青少年的编程能力、逻辑思维能力、团队写作能力和问题解决能力。</p>
+                            <img src="/static/images/dyimg/product/one3.png" alt="">
+                        </div>
+                        <div class="content_right">
+                            <p>（4）智造创客空间：把想法具象化、把设计现实化、把创造实物化，以现代数字化加工设备为硬件基础，培养青少年项目实施能力、动手实践能力、展示表达能力，为
+                                创造性思维、创新型设计、智能化硬件和编程打通实物展现的关键环节，助力青少年全面成长。</p>
+                            <img src="/static/images/dyimg/product/one4.png" alt="">
+                        </div>
+                        <div class="content_left">
+                            <p>（5）未来创客空间：以丰富多彩的创客课程和体验活动为依托，让青少年认识创客、体验创客、争当创客，学习创客精神，培养思维发散、勇于创造、学以致用的未来少年。</p>
+                            <img src="/static/images/dyimg/product/one5.png" alt="">
+                        </div>
+                        <div class="content_right">
+                            <p>（6）魅影创客空间：学习、交流、共享、成长是创客思想的重要理念，以小组讨论、班级交流、校际交流为基础，通过学习、制作照片、视频等创意媒体内容，鼓
+                                励青少年以互联网宣传和展现自我。</p>
+                            <img src="/static/images/dyimg/product/one6.png" alt="">
+                        </div>
+                        <p>
+                            （7）定制主题创客空间：根据要求为各学校、机构提供定制化创客空间设计与建设服务，与创客课程配合，培养差异化、特色化青少年创客。
+                        </p>
+                    </div>
+                    <div class="two">
+                        <h3>科技创客课程</h3>
+                        <p>科技创客课程和教辅产品是科技创客教育的内容核心，针对不同年龄段青少年设计的各类主题课程，以航空航天、机器人、智能硬件、自然语言编程为载体，以
+                            “玩、做、创”为呈现理念，以夯实知识与技能基础、发挥想象力与创造力、培养综合问题解决能力为目标，助力青少年全面成长。</p>
+                        <div class="content">
+                            <p>（1）初探智能：通过趣味纸电路和单片机，认识了解各种电子模块和常用的机械零件，搭建丰富、趣味的功能产品。</p>
+                            <div class="content_img">
+                                <img src="/static/images/dyimg/product/two1.png" alt="">
+                                <img src="/static/images/dyimg/product/two2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>（2）智造未来：掌握3D打印机、激光切割器等桌面级加工设备使用方法，了解高精尖加工设备，制造属于自己的创客作品。</p>
+                            <div class="content_img">
+                                <img src="/static/images/dyimg/product/two10.png" alt="">
+                                <img src="/static/images/dyimg/product/two11.png" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>（3）机器风云：以四轮遥控车、平衡车、球星机器人为引入，介绍自动控制原理和方法，通过动手实践，扩展到机械臂、人形机器人、自动驾驶船等领域，引领学生进入自动控制的世界。</p>
+                            <div class="content_img">
+                                <img src="/static/images/dyimg/product/two5.png" alt="">
+                                <img src="/static/images/dyimg/product/two6.png" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>（4）飞行世界：以微型四选一和通用遥控器为载体，通过学习飞行原理、飞行器设计、飞行器控制，使学生能够制作自己的飞行器，体验飞行乐趣。</p>
+                            <div class="content_img">
+                                <img style="width: 24%;" src="/static/images/dyimg/product/two7.png" alt="">
+                                <img style="width: 24%;" src="/static/images/dyimg/product/two8.png" alt="">
+                                <img src="../static/images/dyimg/product/two9.png" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>（5）雏鹰炼翅：以飞机、火箭。导弹、卫星、雷达等一些列航空航天科技成果为载体，涵盖物理、化学、数学、机械、制造等多学科知识，系统介绍科学原理。</p>
+                            <div class="content_img">
+                                <img src="/static/images/dyimg/product/two3.png" alt="">
+                                <img src="/static/images/dyimg/product/two4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>（6）电子历险记：通过学习单片机和图形化编程软件，了解自动控制中常见的电子元器件和传感器，掌握基本变成思维和图形化编程工具，编写、制作自己的趣味作品，并由基础知识扩展到飞行器的智能控制原理和方法。</p>
+                            <div class="content_img">
+                                <img src="/static/images/dyimg/product/two12.png" alt="">
+                                <img src="/static/images/dyimg/product/two13.png" alt="">
+                            </div>
+                        </div>
+                        <div class="box">
+                            <p>（7）课程定制开发：结合航空航天、计算机、机械设计、人工智能领域以及教育学、心理学领域的专业人才，保证了大辰科技先进的课程研发能力。</p>
+                        </div>
+                    </div>
+                </div>
+                <!--AI工坊-->
+                <div role="tabpanel" class="tab-pane fade" id="learning" aria-labelledby="learning-tab">
+                    <p>
+                        AI（人工智能）创新工坊以人工智能为主题，以用人工智能方法更高效解决问题为导向，以培养人工智能思维方式为核心，以涵盖图形化编程、PYTHON语言编程
+                        、语音识别与图像识别体验及实践、智能机器人、机器学习、自然语言处理体验、专家系统挑战等内容的课程为依托，打造符合创新、实践、网络、共享现代教育
+                        属性的人工智能探究体验生态环境，培养青少年创新意识、创造能力、独立思考能力。
+                    </p>
+                    <div class="ai">
+                           <div class="one">
+                               <h3> 协同飞行实验室 </h3>
+                               <div class="left">
+                                   <p>以如何实现无人机协同飞行为主线，按照学习、实验、操控的教学过程，介绍机器视觉、语音识别、多智能体控制、自动规划、自然语言处理等人工智能基础知识
+                                       ，配合无人机集群协同套装，实现学习、实验、操控的教学过程，培养学生的学习能力、创新思维、实践能力。</p>
+                                   <img style="width: 90%" src="/static/images/dyimg/product/three1.png" alt="">
+                               </div>
+                               <table border="1" style="float: right; width: 40%;">
+                                   <h4>配套课程</h4>
+                                   <tr>
+                                       <th  style="text-align:center;">阶段</th>
+                                       <th colspan="2">内容</th>
+                                       <th>学时</th>
+                                       <th>课程性质</th>
+                                   </tr>
+                                   <!--1-->
+                                   <tr>
+                                       <td align="center" rowspan="3">第一阶段</td>
+                                       <td colspan="2">无人机概述</td>
+                                       <td rowspan="3">6</td>
+                                       <td rowspan="3">实践活动</td>
+                                   </tr>
+                                   <tr>
+                                       <td colspan="2">光电式动作捕捉系统</td>
+                                   </tr>
+                                   <tr>
+                                       <td colspan="2">无人机飞行操控体验</td>
+                                   </tr>
+                                   <!--2-->
+                                   <tr>
+                                       <td align="center" rowspan="2">第二阶段</td>
+                                       <td colspan="2">无人机制作</td>
+                                       <td rowspan="2">6</td>
+                                       <td rowspan="2">实践活动</td>
+                                   </tr>
+                                   <tr>
+                                       <td colspan="2">无人机室内定点飞行</td>
+                                   </tr>
+                                   <!--3-->
+                                   <tr>
+                                       <td align="center" rowspan="3">第三阶段</td>
+                                       <td colspan="2">语音识别与控制</td>
+                                       <td rowspan="3">12</td>
+                                       <td rowspan="3">实践活动</td>
+                                   </tr>
+                                   <tr>
+                                       <td colspan="2">图像识别与控制</td>
+                                   </tr>
+                                   <tr>
+                                       <td colspan="2">肢体（语音）控制飞行实验</td>
+                                   </tr>
+                                   <!--4-->
+                                   <tr>
+                                       <td align="center" rowspan="2">第四阶段</td>
+                                       <td colspan="2">无人机航迹规划</td>
+                                       <td rowspan="2">5</td>
+                                       <td rowspan="2">实践活动</td>
+                                   </tr>
+                                   <tr>
+                                       <td colspan="2">无人机送货模拟</td>
+                                   </tr>
+                                   <!--5-->
+                                   <tr>
+                                       <td align="center" rowspan="2">第五阶段</td>
+                                       <td colspan="2">多智能体控制及自动规划应用</td>
+                                       <td rowspan="2">7</td>
+                                       <td rowspan="2">实践活动</td>
+                                   </tr>
+                                   <tr>
+                                       <td colspan="2">无人机人机协同舞步实践</td>
+                                   </tr>
+                               </table>
+                           </div>
+
+                        <div class="two">
+                            <h3> 自动驾驶实验室 </h3>
+                            <div class="left">
+                                <p>以如何实现无人车在模拟道路上行驶为主线，按照学习、实验、操控的教学过程，介绍机器视觉、语音识别、避碰避障控制、自动规划、自然语言处理等
+                                    人工智能基础知识，结合无人车平台及先进自动驾驶视频，实现学习、实验、操控的教学过程，培养学生的创新设计、审美能力、操作能力、合作能力。</p>
+                                <img style="width: 90%" src="/static/images/dyimg/product/three2.png" alt="">
+                            </div>
+                            <table border="1" style="float: right; width: 40%;margin-top: 30px;">
+                                <h4>配套课程</h4>
+                                <tr>
+                                    <th  style="text-align:center;">阶段</th>
+                                    <th colspan="2">内容</th>
+                                    <th>学时</th>
+                                    <th>课程性质</th>
+                                </tr>
+                                <!--1-->
+                                <tr>
+                                    <td align="center" rowspan="2">第一阶段</td>
+                                    <td colspan="2">UWB系统定位应用</td>
+                                    <td rowspan="2">6</td>
+                                    <td rowspan="2">操作体验</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">自动驾驶汽车定位实验</td>
+                                </tr>
+                                <!--2-->
+                                <tr>
+                                    <td align="center" rowspan="2">第二阶段</td>
+                                    <td colspan="2">自动驾驶汽车传感器</td>
+                                    <td rowspan="2">6</td>
+                                    <td rowspan="2">操作体验</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">自动驾驶汽车控制</td>
+                                </tr>
+                                <!--3-->
+                                <tr>
+                                    <td align="center" rowspan="2">第三阶段</td>
+                                    <td colspan="2">图像与轨迹识别</td>
+                                    <td rowspan="2">5</td>
+                                    <td rowspan="2">操作体验</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">寻迹车辆实验</td>
+                                </tr>
+                                <!--4-->
+                                <tr>
+                                    <td align="center" rowspan="2">第四阶段</td>
+                                    <td colspan="2">多智能体控制</td>
+                                    <td rowspan="2">5</td>
+                                    <td rowspan="2">操作体验</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">双车编队行驶</td>
+                                </tr>
+                                <!--5-->
+                                <tr>
+                                    <td align="center" rowspan="2">第五阶段</td>
+                                    <td colspan="2">交通调度</td>
+                                    <td rowspan="2">5</td>
+                                    <td rowspan="2">操作体验</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">自动驾驶汽车调度实验</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="three">
+                            <h3> 未来编程实验室 </h3>
+                            <div class="left">
+                                <p>未来编程实验室介绍人工智能前沿领域技术、讲解人工智能中的基础应用并开展人 工智能实验，在教室传统设备的基础上配置人工智能
+                                    未来编程课程所需的计算机软硬件环境，以系统的知识体系为依托，培养学生的逻辑思维和信息处理能力。</p>
+                                <img style="width: 90%" src="/static/images/dyimg/product/three3.png" alt="">
+                            </div>
+                            <table border="1" style="float: right; width: 40%;">
+                                <h4>配套课程</h4>
+                                <tr>
+                                    <th  style="text-align:center;">阶段</th>
+                                    <th colspan="2">内容</th>
+                                    <th>学时</th>
+                                    <th>课程性质</th>
+                                </tr>
+                                <!--1-->
+                                <tr>
+                                    <td align="center" rowspan="2">第一阶段</td>
+                                    <td colspan="2">图形化编程与语言</td>
+                                    <td rowspan="2">6</td>
+                                    <td rowspan="2">实践操作</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">图形化编程语言实践</td>
+                                </tr>
+                                <!--2-->
+                                <tr>
+                                    <td align="center" rowspan="3">第二阶段</td>
+                                    <td colspan="2">声光显示与编程控制</td>
+                                    <td rowspan="3">6</td>
+                                    <td rowspan="3">实践操作</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">传感器与编程控制</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">自动控制系统</td>
+                                </tr>
+                                <!--3-->
+                                <tr>
+                                    <td align="center" rowspan="2">第三阶段</td>
+                                    <td colspan="2">机器人与编程</td>
+                                    <td rowspan="2">6</td>
+                                    <td rowspan="2">实践操作</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">机器人应用实例</td>
+                                </tr>
+                                <!--4-->
+                                <tr>
+                                    <td align="center" rowspan="3">第四阶段</td>
+                                    <td colspan="2">抓取机器人制作与编程实践</td>
+                                    <td rowspan="3">12</td>
+                                    <td rowspan="3">实践操作</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">爬行机器人制作与编程实践</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">投球机器人制作与编程实践</td>
+                                </tr>
+                                <!--5-->
+                                <tr>
+                                    <td align="center" rowspan="3">第五阶段</td>
+                                    <td colspan="2">Python编程环境的搭建与使用</td>
+                                    <td rowspan="3">6</td>
+                                    <td rowspan="3">实践操作</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Python编程基础</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Python编程与应用实践</td>
+                                </tr>
+                                <!--6-->
+                                <tr>
+                                    <td align="center" rowspan="1">第六阶段</td>
+                                    <td colspan="2">树莓派及应用实践</td>
+                                    <td rowspan="1">5</td>
+                                    <td rowspan="1">实践操作</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!--成长计划-->
+                <div role="tabpanel" class="tab-pane fade" id="playing" aria-labelledby="playing-tab">
+                    <p>
+                        太空教育成长计划通过开展航天与太空科技教育等内容的课程和相应的硬件设施，为学生提供生动的体验、合作、探究类学习活动，
+                        增强学生的科学素养，培养学生对于未知宇宙的探索精神。
+                    </p>
+                    <div class="space">
+                        <div class="one">
+                            <p>
+                                打造适合于学生的太空创客平台，提供从学习创作到尝试创新的自由场地，以寓教于乐的方式帮助学生开启探索旅程，提高学生的设计思维和创新能力。
+                            </p>
+                            <img src="/static/images/dyimg/product/four1.png" alt="">
+                            <img src="/static/images/dyimg/product/four2.png" alt="">
+                            <div class="left">
+                                <p>（1）校园卫星测控站</p>
+                                <img style="width: 100%;" src="/static/images/dyimg/product/four3.png" alt="">
+                            </div>
+                            <div class="right">
+                               <p>（2）校园卫星模型</p>
+                               <img style="width: 100%;" src="/static/images/dyimg/product/four4.png" alt="">
+                           </div>
+                            <div class="clearfix"></div>
+                            <p>（3）天文观测仪器</p>
+                            <img src="/static/images/dyimg/product/four5.png" alt="">
+                            <img src="/static/images/dyimg/product/four6.png" alt="">
+                        </div>
+                        <div class="two">
+                            <p>
+                                “太空科技教育”课程包括基础理论课程和动手实践课程，基础课程的核心主要有力学、物理、天文、航天概论和发展等; 动手实践课程将深入学习专业基础知识，
+                                引导学生通过对套件、模型等的观察、测量、制作、实验等活动，掌握航天科学与技术、机械学等基础知识，以利于培养初步的未来航天观念。
+                            </p>
+                            <p>教材</p>
+                            <img style="width: 100%;" src="/static/images/dyimg/product/four7.png" alt="">
+                            <p>套件</p>
+                            <img style="width: 100%;" src="/static/images/dyimg/product/four8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/static/js/jquery.tools.min.js"></script>
+        <script src="/static/js/jquery.mobile.custom.min.js"></script>
+        <script src="/static/js/jquery.cm-overlay.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.cm-overlay').cmOverlay();
+            });
+        </script>
+    </div>
+</div>
+
+<footer>
+    <div class="agileits-w3layouts-footer">
+        <div class="container">
+            <div class="col-md-4 w3-agile-grid">
+                <h5>公司福利</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum urna non nisi ornare, condimentum iaculis ipsum blandit. Duis auctor vulputate metus nec luctus.</p>
+                <div class="agileinfo-social-grids">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 w3-agile-grid">
+                <h5>近期职位</h5>
+                <div class="w3ls-post-grids">
+                    <div class="w3ls-post-grid">
+                        <div class="w3ls-post-img">
+                            <a href="#"><img src="/static/images/2.jpg" alt="" /></a>
+                        </div>
+                        <div class="w3ls-post-info">
+                            <h6><a href="#" data-toggle="modal" data-target="#myModal">Proin scelerisque, sem a facilisis mollis</a></h6>
+                            <p>Sept 24,2017</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="w3ls-post-grid">
+                        <div class="w3ls-post-img">
+                            <a href="#"><img src="/static/images/4.jpg" alt="" /></a>
+                        </div>
+                        <div class="w3ls-post-info">
+                            <h6><a href="#" data-toggle="modal" data-target="#myModal">Proin scelerisque, sem a facilisis mollis</a></h6>
+                            <p>Oct 25,2017</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="w3ls-post-grid">
+                        <div class="w3ls-post-img">
+                            <a href="#"><img src="/static/images/9.jpg" alt="" /></a>
+                        </div>
+                        <div class="w3ls-post-info">
+                            <h6><a href="#" data-toggle="modal" data-target="#myModal">Proin scelerisque, sem a facilisis mollis</a></h6>
+                            <p>Nov 06,2017</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 w3-agile-grid">
+                <h5>公司地址</h5>
+                <div class="w3-address">
+                    <div class="w3-address-grid">
+                        <div class="w3-address-left">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <div class="w3-address-right">
+                            <h6>Phone Number</h6>
+                            <p>+1 234 567 8901</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="w3-address-grid">
+                        <div class="w3-address-left">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
+                        <div class="w3-address-right">
+                            <h6>Email Address</h6>
+                            <p>Email :<a href="mailto:example@email.com"> mail@example.com</a></p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="w3-address-grid">
+                        <div class="w3-address-left">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </div>
+                        <div class="w3-address-right">
+                            <h6>Location</h6>
+                            <p>Broome St, NY 10002, Canada.
+                                <span>Telephone : +00 111 222 3333</span>
+                            </p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <p>北京鼎赢科技有限公司 <a href="javascript:;" target="_blank" title="鼎赢">鼎赢科技</a> - Collect from </p>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+</body>
+</html>

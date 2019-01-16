@@ -1,0 +1,44 @@
+p{text-indent: 2em; line-height: 40px;}
+h3,h4{font-weight: bold;}
+
+
+/*dyprofile（公司简介）的css*/
+.main{width: 80%;margin: 20px auto;}
+.main h1{text-align: center;}
+.main .main_text{padding: 10px 40px;text-indent: 2em;}
+.main .main_text p{line-height: 40px;}
+
+
+
+/*product（主营业务）的css*/
+/*科技创客教育*/
+/*one*/
+.gallery .container .bs-example.bs-example-tabs .tab-content #home-main .one .content_left{width: 90%; height: 200px; margin: 25px auto;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #home-main .one .content_left>p{display: block; float: left; width: 50%; padding-top: 10px; padding-left: 5%;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #home-main .one .content_left>img{display: block; float: right; padding-right: 5%;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #home-main .one .content_right{width: 90%; height: 200px; margin: 25px auto;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #home-main .one .content_right>p{display: block; float: right; width: 50%; padding-top: 10px; padding-right: 5%;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #home-main .one .content_right>img{display: block; float: left; padding-left: 10%;}
+/*two*/
+.gallery .container .bs-example.bs-example-tabs .tab-content #home-main .two .content{width: 50%;  margin: 25px auto; float: left; height: 300px;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #home-main .two .content p{display: block; float: left; width: 90%; padding-top: 10px; padding-left: 5%; margin: 0 auto;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #home-main .two .content .content_img{float: left; width: 90%;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #home-main .two .content .content_img img{width: 49%;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #home-main .two .box{clear:both; width: 60%; margin: 0 auto; padding-top: 20px;}
+/*AI创新工坊*/
+.gallery .container .bs-example.bs-example-tabs .tab-content #learning .ai .one{width: 100%; padding-top:30px; clear: both;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #learning .ai .two{width: 100%; padding-top:30px; clear: both;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #learning .ai .three{width: 100%; padding-top:30px; clear: both;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #learning .ai .one .left{float: left; width: 58%; margin-right: 10px;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #learning .ai .two .left{float: left; width: 58%; margin-right: 10px;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #learning .ai .three .left{float: left; width: 58%; margin-right: 10px;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #learning .ai .one table tr th,td{text-align:center; line-height: 33px;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #learning .ai .two table tr th,td{text-align:center;line-height: 33px;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #learning .ai .three table tr th,td{text-align:center;line-height: 33px;}
+/*成长计划*/
+.gallery .container .bs-example.bs-example-tabs .tab-content #playing .space .one{width: 80%; margin: 0 auto;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #playing .space .one .left{ float: left; width: 49%;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #playing .space .one .right{ float: right; width: 49%;}
+.gallery .container .bs-example.bs-example-tabs .tab-content #playing .space .one img{width: 49%;}
+
+/*services合作案例的css*/
