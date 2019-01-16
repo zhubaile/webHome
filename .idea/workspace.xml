@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6462328d-bceb-48da-845b-a797042a2651" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/pages/dyprofile.html" afterPath="$PROJECT_DIR$/pages/dyprofile.html" />
+      <change beforePath="$PROJECT_DIR$/pages/product.html" afterPath="$PROJECT_DIR$/pages/product.html" />
+      <change beforePath="$PROJECT_DIR$/pages/services.html" afterPath="$PROJECT_DIR$/pages/services.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +19,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="36" column="81" lean-forward="true" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
+            <state relative-caret-position="304">
+              <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/services.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/product.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dyprofile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/dyprofile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="47" column="80" lean-forward="true" selection-start-line="47" selection-start-column="80" selection-end-line="47" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -29,8 +62,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+            <state relative-caret-position="266">
+              <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -74,11 +107,11 @@
         <option value="$PROJECT_DIR$/pages/hello.html" />
         <option value="$PROJECT_DIR$/static/css/dy.css" />
         <option value="$PROJECT_DIR$/pages/header—footer.html" />
-        <option value="$PROJECT_DIR$/pages/dyprofile.html" />
-        <option value="$PROJECT_DIR$/pages/product.html" />
-        <option value="$PROJECT_DIR$/pages/services.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/pages/dyprofile.html" />
+        <option value="$PROJECT_DIR$/pages/services.html" />
+        <option value="$PROJECT_DIR$/pages/product.html" />
       </list>
     </option>
   </component>
@@ -171,12 +204,12 @@
       <workItem from="1547433226922" duration="1788000" />
       <workItem from="1547436098567" duration="2550000" />
       <workItem from="1547515816938" duration="23452000" />
-      <workItem from="1547601295131" duration="7430000" />
+      <workItem from="1547601295131" duration="7826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39036000" />
+    <option name="totallyTimeSpent" value="39432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -431,34 +464,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/dc.css" />
-    <entry file="file://$PROJECT_DIR$/pages/dyprofile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-931">
-          <caret line="155" column="50" lean-forward="false" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/header—footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="44" column="61" lean-forward="false" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-664">
-          <caret line="544" column="50" lean-forward="true" selection-start-line="544" selection-start-column="50" selection-end-line="544" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="230" column="10" lean-forward="true" selection-start-line="230" selection-start-column="10" selection-end-line="230" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -481,16 +490,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        <state relative-caret-position="266">
+          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="36" column="81" lean-forward="true" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
+        <state relative-caret-position="304">
+          <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/dyprofile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="47" column="80" lean-forward="true" selection-start-line="47" selection-start-column="80" selection-end-line="47" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
           <folding />
         </state>
       </provider>
